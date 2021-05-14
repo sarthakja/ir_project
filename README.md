@@ -11,5 +11,7 @@ The **lexrank** algorithm has been used to find the sentence ranks. The lexrank 
 matrix.The similarity is calculated using idf-modified-cosine similarity. Then the **pagerank** algorithm is applied on the similarity matrix to calculate the most prestigious page(sentence). This sentence is recommended as the title.The algorithm uses the intuition that a sentence similar to many other sentences will be more important than a sentence not similar to any other sentences.
 ## Title
 Title is obtained by finding the sentence score to find the most important sentence, which is recommended as the title.
+## How to run the file
+Run the notebook till the last cell. The last cell shows the original document and title and displays the title given by the lexrank algorithm.
  
 
